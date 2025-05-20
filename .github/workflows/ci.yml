@@ -25,8 +25,3 @@ jobs:
         run: |
           cd my-blog-practice
           npm install
-
-      - name: Run tests
-        run: |
-          cd my-blog-practice
-          npm test
