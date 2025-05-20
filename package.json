@@ -1,17 +1,19 @@
 {
   "name": "my-blog-practice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Internship Exercise-Day 1\r     Create three folders like a blog folder structure  \r     add a file .gitignore\r     within my repository my-blog-practice",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "echo \"Build completed\""
+    "build": "echo \"Build completed\"",
+    "release": "changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "@changesets/cli": "^2.27.1"
   },
   "dependencies": {
     "lodash": "4.17.15"
