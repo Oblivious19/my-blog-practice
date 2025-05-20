@@ -1,12 +1,12 @@
 {
-  "name": "my-blog-practice",
+  "name": "demo-project",
   "version": "1.0.0",
-  "description": "Internship Exercise-Day 1\r     Create three folders like a blog folder structure  \r     add a file .gitignore\r     within my repository my-blog-practice",
+  "description": "Demo project for GitHub automation and security",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "lodash": "4.17.15"  // This is an older version with known vulnerabilities
+  }
 }
