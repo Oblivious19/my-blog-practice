@@ -4,7 +4,8 @@
   "description": "Internship Exercise-Day 1\r     Create three folders like a blog folder structure  \r     add a file .gitignore\r     within my repository my-blog-practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo \"Build completed\"",
+    "test": "echo \"No tests to run\""
   },
   "keywords": [],
   "author": "",
