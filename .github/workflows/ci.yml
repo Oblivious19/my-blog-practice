@@ -29,4 +29,3 @@ jobs:
         run: |
           cd my-blog-practice
           npm test
-``
